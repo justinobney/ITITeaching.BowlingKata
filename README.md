@@ -76,10 +76,14 @@ Domain Requirements
 
 The Tests
 ----
-_Note_: Sample scores will be in the following format ```2|5|X|5|/|...```
-* A game with all gutterballs should result in ==> 0
-* A game with all rolls knowking down 1 pin will result in ==> 20
-* Can handle spares Ex:
-	* ```1|/|5|0.... ==> 20```
-* Can handle strikes Ex:
-	* ```X|3|5|0.... ==> 26```
+*Frame
+	* ```AddRoll_CorrectlyAddsPinsToContainer```
+	* TODO: More....
+*ScoreSheet
+	* _Note_: Sample scores will be in the following format ```2|5|X|5|/|...```
+	* A game with all gutterballs should result in ==> 0
+	* A game with all rolls knowking down 1 pin will result in ==> 20
+	* Can handle spares Ex:
+		* ```1|/|5|0.... ==> 20```
+	* Can handle strikes Ex:
+		* ```X|3|5|0.... ==> 26```
