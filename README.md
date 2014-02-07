@@ -56,9 +56,9 @@ Scoring
 The Kata Steps
 ----
 * Create new solution
-* Create "_domain_" Project
-	* **Client**: Bowl-O-Rama
+ 	* **Client**: Bowl-O-Rama
 	* **Project**: ScoreSheet
+* Create "_domain_" Project
 * Create "_test_" project
 	* You know what to do
 
