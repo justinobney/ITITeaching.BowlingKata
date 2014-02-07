@@ -57,17 +57,22 @@ The Kata Steps
 ----
 * Create new solution
 * Create "_domain_" Project
-	* *Client*: Bowl-O-Rama
-	* *Project*: ScoreSheet
+	* **Client**: Bowl-O-Rama
+	* **Project**: ScoreSheet
 * Create "_test_" project
 	* You know what to do
 
 Domain Requirements
 ----
-* This project will have a single class: *GameScorer*
+* This project will have a two classes: **GameScorer**, **Frame**
 * GameScorer will have the following public methods:
 	* ```void Roll(int numPinsFell)```
 	* ```int GetScore()```
+* Frame
+	* ```void AddRoll(int numPinsFell)```
+	* ```int PinsScored()```
+	* ```Property: bool IsStrike```
+	* ```Property: bool IsSpare```
 
 The Tests
 ----
