@@ -4,7 +4,7 @@ Bowling Kata
 Notes
 ----
 * A Game is made up of 10 frames
-* A frame consists of 2* bowls (except the 10th frame having 3)
+* A frame consists of 2* bowls (except the 10th frame _possibly_ having 3)
 * During each bowl, the player has a chance to knock down 10 pins
 * _Strike_: When all ten pins are knocked down with the first ball
 * _Spare_: A "spare" is awarded when no pins are left standing after the second ball of a frame
@@ -56,25 +56,25 @@ Scoring
 The Kata Steps
 ----
 * Create new solution
-* Create "domain" Project
-	* Client: Bowl-O-Rama
-	* Project: ScoreSheet
-* Create "test" project
+* Create "_domain_" Project
+	* *Client*: Bowl-O-Rama
+	* *Project*: ScoreSheet
+* Create "_test_" project
 	* You know what to do
 
 Domain Requirements
 ----
-* This project will have a single class: GameScorer
+* This project will have a single class: *GameScorer*
 * GameScorer will have the following public methods:
 	* ```void Roll(int numPinsFell)```
 	* ```int GetScore()```
 
 The Tests
 ----
-_Note_: Sample scores will be in the following format 2|5|X|5|/|...
+_Note_: Sample scores will be in the following format ```2|5|X|5|/|...```
 * A game with all gutterballs should result in ==> 0
 * A game with all rolls knowking down 1 pin will result in ==> 20
 * Can handle spares Ex:
 	* ```1|/|5|0.... ==> 20```
 * Can handle strikes Ex:
-	* ```x|3|5|0.... ==> 26```
+	* ```X|3|5|0.... ==> 26```
