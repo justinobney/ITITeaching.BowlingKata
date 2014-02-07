@@ -74,7 +74,7 @@ Domain Requirements
 	* ```Property: bool IsStrike```
 	* ```Property: bool IsSpare```
 	* ```Property: int Roll1``` - Note: Needed for testing
-	* ```Property: int Roll1``` - Note: Needed for testing
+	* ```Property: int Roll2``` - Note: Needed for testing
 
 The Tests
 ----
