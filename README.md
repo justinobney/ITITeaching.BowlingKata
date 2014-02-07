@@ -76,10 +76,10 @@ Domain Requirements
 
 The Tests
 ----
-*Frame
+* Frame
 	* ```AddRoll_CorrectlyAddsPinsToContainer```
 	* TODO: More....
-*ScoreSheet
+* ScoreSheet
 	* _Note_: Sample scores will be in the following format ```2|5|X|5|/|...```
 	* A game with all gutterballs should result in ==> 0
 	* A game with all rolls knowking down 1 pin will result in ==> 20
