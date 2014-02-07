@@ -73,6 +73,8 @@ Domain Requirements
 	* ```int PinsScored()```
 	* ```Property: bool IsStrike```
 	* ```Property: bool IsSpare```
+	* ```Property: int Roll1``` - Note: Needed for testing
+	* ```Property: int Roll1``` - Note: Needed for testing
 
 The Tests
 ----
